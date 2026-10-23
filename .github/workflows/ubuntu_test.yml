@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        cppVersion: [20] // TODO (FOREVER) make c++23 happy
+        cppVersion: [20] # TODO (FOREVER) make c++23 happy
         compiler: [clang++-16, clang++-18, gcc-12, gcc-14]
 
     steps:
